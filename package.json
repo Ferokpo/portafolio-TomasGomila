@@ -1,0 +1,15 @@
+{
+  "name": "portafolio-tg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@TomasGomila",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "vercel": "^28.18.1"
+  }
+}
