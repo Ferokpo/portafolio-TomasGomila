@@ -1,38 +1,23 @@
-const express = require('express');
+const express = require("express");
 const app = express();
 
-app.use(express.static('public'));
+app.use(express.static(__dirname + "/public"));
 
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html');
-  });
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/html/index.html");
+});
 
-  app.listen(3000, () => {
-    console.log('Aplicación escuchando en el puerto 3000');
-  });
-  
+app.get("/contact", (req, res) => {
+  res.sendFile(__dirname + "/html/contact.html");
+});
 
+app.get("/project", (req, res) => {
+  res.sendFile(__dirname + "/html/proyect.html");
+});
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+app.listen(3000, () => {
+  console.log("Aplicación escuchando en el puerto 3000");
+});
 
 // import express from "express";
 // import { dirname, join } from "path";
