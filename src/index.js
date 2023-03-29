@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/contact", (req, res) => {
-  res.sendFile(__dirname + "/html/contact.html");
+  res.sendFile(__dirname + "/contact.html");
 });
 
 // app.get("/project", (req, res) => {
