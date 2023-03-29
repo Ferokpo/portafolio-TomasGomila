@@ -4,16 +4,16 @@ const app = express();
 // app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/html/index.html");
+  res.sendFile(__dirname + "/index.html");
 });
 
-app.get("/contact", (req, res) => {
-  res.sendFile(__dirname + "/html/contact.html");
-});
+// app.get("/contact", (req, res) => {
+//   res.sendFile(__dirname + "/html/contact.html");
+// });
 
-app.get("/project", (req, res) => {
-  res.sendFile(__dirname + "/html/proyect.html");
-});
+// app.get("/project", (req, res) => {
+//   res.sendFile(__dirname + "/html/proyect.html");
+// });
 
 app.listen(3000, () => {
   console.log("Aplicación escuchando en el puerto 3000");
