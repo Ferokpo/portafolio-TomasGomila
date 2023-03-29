@@ -7,9 +7,9 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
-// app.get("/contact", (req, res) => {
-//   res.sendFile(__dirname + "/html/contact.html");
-// });
+app.get("/contact", (req, res) => {
+  res.sendFile(__dirname + "/html/contact.html");
+});
 
 // app.get("/project", (req, res) => {
 //   res.sendFile(__dirname + "/html/proyect.html");
