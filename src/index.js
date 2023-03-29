@@ -11,9 +11,9 @@ app.get("/contact", (req, res) => {
   res.sendFile(__dirname + "/contact.html");
 });
 
-// app.get("/project", (req, res) => {
-//   res.sendFile(__dirname + "/html/proyect.html");
-// });
+app.get("/project", (req, res) => {
+  res.sendFile(__dirname + "/proyect.html");
+});
 
 app.listen(3000, () => {
   console.log("Aplicación escuchando en el puerto 3000");
