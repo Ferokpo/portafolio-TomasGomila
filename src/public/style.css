@@ -180,16 +180,18 @@ a:focus {
   width: 650px;
   transition: all 1s;
 }
-.contenedor-cv a{
+.contenedor-cv a {
   text-decoration: none;
 }
-.boton-cv:hover {
-  box-shadow: 0px 0px 25px #ff0400;
-  border-color: #ff3936;
-  height: 85px;
-  width: 675px;
-}
 
+@media (min-width: 1000px) {
+  .boton-cv:hover {
+    box-shadow: 0px 0px 25px #ff0400;
+    border-color: #ff3936;
+    height: 85px;
+    width: 675px;
+  }
+}
 .slider_item-imgbox {
   margin-top: 45px;
   width: 75%;
@@ -261,16 +263,18 @@ a:focus {
   margin: 0 auto 45px auto;
   transition: all 1s;
 }
+@media (min-width: 1000px) {
+  .about-detail:hover {
+    height: 550px;
+    width: 550px;
+    background-color: #222;
+    box-shadow: 0px 0px 25px #ff0400;
+    border-radius: 15px;
 
-.about-detail:hover {
-  height: 550px;
-  width: 550px;
-  background-color: #222;
-  box-shadow: 0px 0px 25px #ff0400;
-  border-radius: 15px;
-
-  border: 1px solid #000;
+    border: 1px solid #000;
+  }
 }
+
 .about_card .about_img-box {
   width: 75px;
 }
@@ -421,7 +425,6 @@ a:focus {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-
 }
 
 .inputs-cont {
@@ -486,7 +489,6 @@ a:focus {
   margin-top: 15px;
   display: flex;
   justify-content: center;
-  
 }
 .cont-a a {
   background-color: #191919;
@@ -496,8 +498,7 @@ a:focus {
   font-family: "Karla", sans-serif;
   font-size: 50px;
   transition: all 0.7s;
-  margin-top:  50px;
-
+  margin-top: 50px;
 }
 .a :hover {
   box-shadow: 0px 0px 15px #ff0400;
