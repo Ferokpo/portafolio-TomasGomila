@@ -139,6 +139,8 @@
     height: 1000px;
     width: 450px;
     background-color: none;
+    border-radius: 5%;
+
   }
   .img-pro1 {
     margin-left: 20%;
